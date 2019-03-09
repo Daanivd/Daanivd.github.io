@@ -1,0 +1,285 @@
+/*Background Image*/
+
+@media only screen and (min-width: 768px) {
+    .bg-img {
+        background-image: url("../assets/images/1200px/DIvanDuinkerken_1920-01213.jpg");
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-img {
+        background-image: url("../assets/images/768px/DIvanDuinkerken_1920-01213.jpg");
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: -1;
+    }
+}
+
+
+
+/*General Content*/
+
+.content {
+    font-family: 'Roboto', sans-serif;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+
+/*NAVIGATION ALL PAGES*/
+
+.nav {
+    height: 10vh;
+}
+
+img.logo {
+    margin-left: 1vw;
+    margin-top: -1vw;
+    width: 25vw;
+
+}
+
+#home img.logo {
+    margin-left: 1vw;
+    margin-top: -1vw;
+    width: 33vw;
+
+}
+
+.nav>li>a {
+    opacity: 0.9;
+    color: #FAFAFA;
+    font-size: 25px;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    transition: 0.5s ease-in-out;
+    background-color: transparent;
+}
+
+.nav>li>a:hover {
+    background: transparent;
+}
+
+.nav>li>a.symbol:hover {
+    transform: scale(1.3);
+    text-decoration: none;
+    background: transparent;
+}
+
+.nav>li>a:focus {
+    text-decoration: none;
+    background: transparent;
+}
+
+img.logo {
+    background: transparent;
+    transition: 0.5s ease-in-out;
+}
+
+img.logo:hover {
+    transform: scale(1.025);
+    text-decoration: none;
+    background: transparent;
+}
+
+#about.bg-img {
+    background-image: url("../assets/images/BG-IMG-DIvanDuinkerken_1920-01213.jpg");
+}
+
+#gallery .bg-img {
+    filter: blur(20px);
+}
+
+#about .bg-img {
+    filter: blur(20px);
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: -15px;
+}
+
+header {
+    margin-bottom: 11vw;
+}
+
+.navbar ul li {
+    float: right;
+    margin-right: 0px;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    display: block;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+}
+
+.copyright-details {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 25px;
+    color: #FFF;
+}
+
+.cr-symbol {
+    font-size: 20px;
+}
+
+.social-links a i {
+    color: #fafafa;
+    font-size: 40px;
+    transition: 0.5s ease-in-out;
+    padding: 0 25px;
+}
+
+.social-links a i:hover {
+    color: #fafafa;
+    transform: scale(1.2);
+    text-decoration: none;
+}
+
+
+/* GALLERY PAGE */
+
+.gallery {
+    width: 90vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.photo {
+    padding: 15px 15px;
+}
+
+.audio {
+    padding: 15px 15px;
+    color: #f5f5f5;
+    text-align: center;
+    display: none;
+}
+
+.video {
+    padding: 15px 15px;
+    display: none;
+}
+
+.text-column a {
+    color: #f5f5f5;
+    text-align: justify;
+}
+
+button,
+input,
+select,
+textarea {
+    margin: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: #F5F5F5;
+}
+
+.scroll {
+    display: none;
+    text-align: center;
+    height: 2vw;
+    margin-bottom: 30px;
+}
+
+
+
+.filter {
+    display: block;
+    margin-top: 5vw;
+    height: 4vw;
+    margin: 2vw;
+    text-align: center;
+}
+
+
+.fullScreen {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+
+
+
+.info {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    display: none;
+    color: white;
+    opacity: 0.8;
+}
+
+
+
+/*ABOUT PAGE*/
+
+.column {
+    width: 90vw;
+    padding-bottom: 5vh;
+}
+
+.column h1 {
+    text-align: center;
+    color: #f5f5f5;
+    font-family: "Exo", sans-serif;
+}
+
+.column p {
+    color: #f5f5f5;
+    text-align: justify;
+}
+
+.about-image {
+    margin-bottom: 60px
+}
+
+a.download {
+    margin-top: 40px;
+    text-align: center;
+    color: #f5f5f5;
+    transition: 0.5s ease-in-out;
+
+}
+
+a.download:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.text-column {
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
