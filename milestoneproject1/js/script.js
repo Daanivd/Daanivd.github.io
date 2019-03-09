@@ -17,7 +17,7 @@ $(document).ready(function() {
     $('.filter button').click(function() {
         var filter = $(this).attr('id');
 
-        if (filter == 'photo') {
+        if (filter === 'photo') {
             $('.gallery').css('background-image', 'none');
             $('.photo').css('display', 'block');
             $('.audio').css('display', 'none');
@@ -32,7 +32,7 @@ $(document).ready(function() {
             $('.audio').removeClass('curFilter')
         }
         
-        if (filter == 'video') {
+        if (filter === 'video') {
             $('.gallery').css('background-image', 'none');
             $('.video').css('display', 'block');
             $('.audio').css('display', 'none');
@@ -47,7 +47,7 @@ $(document).ready(function() {
             $('.audio').removeClass('curFilter')
         }
         
-        if (filter == 'audio') {
+        if (filter === 'audio') {
             $('.gallery').css('background-image', 'none');
             $('.audio').css('display', 'block');
             $('.video').css('display', 'none');
