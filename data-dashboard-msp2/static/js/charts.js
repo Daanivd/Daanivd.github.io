@@ -1,5 +1,5 @@
 queue()
-    .defer(d3.csv, "data/monotremeDF.csv")
+    .defer(d3.csv, "data-dashboard-msp2/data/monotremeDF.csv")
     .await(makeGraphs);
 
 
