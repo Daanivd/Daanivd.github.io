@@ -1,0 +1,83 @@
+.content {
+    margin: 40px 80px;
+}
+
+.img-container {
+    max-width: 800px;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+}
+
+.speciesName {
+    text-align: center;
+    font-size: 30px;
+}
+
+.selectreset {
+
+    margin-bottom: 20px;
+}
+
+#map {
+    width: 600px;
+}
+
+.top {
+    height: 50vh;
+
+}
+
+.counter {
+    border: 3px;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.occurances {
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.sightings {
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.reset {
+    color: #f5f5f5;
+}
+
+footer {
+    color: #3a3a3c;
+    height: 250px;
+    background-color: white;
+}
+
+.ala {
+    height: 250px;
+}
+
+.contact p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact a i {
+    font-size: 100px;
+    color: #3a3a3c;
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.dismiss {
+    border: none;
+    color: #fff;
+    background-color: transparent;
+}
