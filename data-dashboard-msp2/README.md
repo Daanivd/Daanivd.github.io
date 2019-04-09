@@ -70,13 +70,15 @@ A tourist:
     - JQuery was used in support of EmailJS.
 
 ## Testing
-Functioning of the charts and map were tested by using several combinations of years, months and states, using either one of the species or both. The numbers
-displayed on the charts were checked with the numbers displayed below the photos of the species. The map distributions were checked using by selectings specific 
-states and seeing if the map only displayed data on the selected state(s).
 - All code used on the site has been tested to ensure everything is working as expected
+  - Functioning of the charts and map were tested by using several combinations of years, months and states, using either one of the species or both. The numbers
+    displayed on the charts were checked with the numbers displayed below the photos of the species. The map distributions were checked using by selectings specific 
+    states and seeing if the map only displayed data on the selected state(s).
 - Site viewed and tested in the following browsers:
   - Google Chrome
-  -
+  - Safari
+  - Firefox
+  - Opera
 
 ## Deployment
 
@@ -114,3 +116,5 @@ Open <https://daanivd.github.io/data-dashboard-msp2> in your browser of preferen
 [Close Modal after submit](https://stackoverflow.com/questions/29754902/close-bootstrap-modal-after-submit)
 
 [Add x/y labels to rowChart](https://www.intothevoid.io/data-visualization/row-chart-axis-labels-dc-js/)
+
+[How to make dc-js-charts responsive](https://stackoverflow.com/questions/22292369/how-to-make-the-dc-js-charts-responsive)
